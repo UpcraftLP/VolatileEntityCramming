@@ -10,7 +10,7 @@ def ENV = System.getenv()
 def buildTime = ENV.BUILD_TIME ?: new Date().format('yyyyMMddHHmmss')
 
 group = "dev.upcraft"
-archivesBaseName = "volatile-entity-cramming"
+archivesBaseName = "VolatileEntityCramming"
 
 def buildNumber = !ENV.TAG ? ((ENV.BUILD_NUMBER ? "build.${ENV.BUILD_NUMBER}" : buildTime) + "-") : ""
 def buildMeta = (!ENV.TAG || ENV.TAG.matches(".+-.+")) ? "+${buildNumber}${project.minecraft_version}" : ""
