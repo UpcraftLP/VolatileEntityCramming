@@ -4,6 +4,7 @@
   "package": "dev.upcraft.entitycramming.mixin.impl",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "GameRulesMixin",
     "LivingEntityMixin"
   ],
   "client": [
