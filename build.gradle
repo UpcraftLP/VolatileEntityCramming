@@ -39,6 +39,9 @@ dependencies {
 	modImplementation(include("io.github.GlassPane:Mesh:${project.mesh_version}")) {
 		exclude group: "net.fabricmc.fabric-api"
 	}
+	modImplementation(include("me.shedaniel.cloth:config-2:${project.cloth_version}")) {
+		transitive false
+	}
 	runtimeOnly "me.zeroeightsix:fiber:${project.fiber_version}" //force version to resolve conflicts
 
 	compileOnly "org.jetbrains:annotations:20.1.0"
