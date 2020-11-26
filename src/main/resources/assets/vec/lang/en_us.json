@@ -1,0 +1,8 @@
+{
+  "config.vec.title": "Volatile Entity Cramming",
+  "config.vec.explode_on_all_cramming_damage": "Explode on ALL cramming damage",
+  "config.vec.default_max_entity_cramming": "Default maxEntityCramming",
+  "config.vec.block_breaking": "Block breaking mode",
+  "config.vec.explosion_power": "Explosion power",
+  "config.vec.explosion_sounds": "Explosion sounds"
+}

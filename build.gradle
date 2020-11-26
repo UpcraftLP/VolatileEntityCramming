@@ -14,7 +14,7 @@ archivesBaseName = "volatile-entity-cramming"
 
 def buildNumber = !ENV.TAG ? ((ENV.BUILD_NUMBER ? "build.${ENV.BUILD_NUMBER}" : buildTime) + "-") : ""
 def buildMeta = (!ENV.TAG || ENV.TAG.matches(".+-.+")) ? "+${buildNumber}${project.minecraft_version}" : ""
-version = "${ENV.TAG ?: "development"}${buildMeta}"
+version = "${ENV.TAG ?: "DEVELOPMENT"}${buildMeta}"
 
 
 repositories {
